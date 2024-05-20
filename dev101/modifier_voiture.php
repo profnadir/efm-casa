@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['modifier'])) {
 <body>
     <h1>Modifier Voiture</h1>
     <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>">
-        <input type="hidden" name="matricule" >
+        <input type="hidden" name="matricule" value="<?php echo $voiture['Matricule']; ?>"> <br>
         <label for="marque">Marque:</label>
         <input type="text" id="marque" name="marque" value="<?php echo $voiture['Marque']; ?>" ><br>
         <label for="annee">Année:</label>
