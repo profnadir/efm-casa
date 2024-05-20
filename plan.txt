@@ -1,0 +1,20 @@
+ListeVoiture.php
+
+le formulaire (ajout)
+matricule
+marque 
+annee
+numeroClient
+
+table
+th tr td
+$voitures 
+
+
+//creation de la base de donnees
+efm-casa2
+
+//creation des tables
+connexion la BD
+create sql
+excute sql

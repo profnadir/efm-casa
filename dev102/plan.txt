@@ -1,0 +1,28 @@
+CRUD 
+Create 
+Read
+Update
+Delete
+
+
+PDO
+connexion
+deconnexion
+
+delete from voitures where matricule = 'asd'
+
+http://efm-casa.test/modifier-voiture.php?matricule=asd
+http://efm-casa.test/modifier-voiture.php?matricule=asd2
+http://efm-casa.test/modifier-voiture.php?matricule=asd3
+
+modifier-voiture.php
+
+$matricule = $_GET['matricule]
+
+create from
+
+$sql = select * form voiture where matricule = ?
+
+prepare -> excute
+
+charger le formulaire avec les informations de la voiture 
